@@ -1,8 +1,6 @@
 import operate from './operate';
 
-function isNumber(item) {
-  return !!item.match(/[0-9]+/);
-}
+const isNumber = (item) => !!item.match(/[0-9]+/);
 
 /**
  * Given a button name and a calculator data object, return an updated
@@ -13,7 +11,7 @@ function isNumber(item) {
  *   next:String       the next number to be operated on with the total
  *   operation:String  +, -, etc.
  */
-export default function calculate(obj, buttonName) {
+export default (obj, buttonName) => {
   if (buttonName === 'AC') {
     return {
       total: null,
@@ -126,4 +124,4 @@ export default function calculate(obj, buttonName) {
     next: null,
     operation: buttonName,
   };
-}
+};
