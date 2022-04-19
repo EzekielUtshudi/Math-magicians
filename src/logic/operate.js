@@ -6,10 +6,10 @@ export default function operate(numberOne, numberTwo, operation) {
   if (operation === '+') {
     return one.plus(two).toString();
   }
-  if (operation === '−') {
+  if (operation === '-') {
     return one.minus(two).toString();
   }
-  if (operation === '×') {
+  if (operation === 'x') {
     return one.times(two).toString();
   }
   if (operation === '÷') {
@@ -20,7 +20,11 @@ export default function operate(numberOne, numberTwo, operation) {
     }
   }
   if (operation === '%') {
-    return one.mod(two).toString();
+    try {
+      return one.mod(two).toString();
+    } catch (err) {
+      return "Can't find modulo as can't divide by 0.";
+    }
   }
   throw Error(`Unknown operation '${operation}'`);
 }
