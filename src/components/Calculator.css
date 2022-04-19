@@ -1,0 +1,54 @@
+
+.container {
+  width: fit-content;
+  font-size: 1rem;
+  margin: 0 auto;
+  margin-top: 10vh;
+}
+
+.screen {
+  background-color: rgb(128, 128, 128);
+  text-align: right;
+  height: 2em;
+  padding: 0.4em;
+  font-size: 1.4em;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.buttons {
+  background-color: hsl(0, 0%, 85%);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.1rem;
+}
+
+button {
+  border: none;
+  height: 2em;
+  width: 5em;
+  font-size: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 1em;
+  box-sizing: content-box;
+}
+
+button:hover {
+  background-color: whitesmoke;
+}
+
+button.orange:hover {
+  background-color: rgb(255, 176, 30);
+}
+
+.buttons .double {
+  grid-column: span 2;
+  width: 100%;
+}
+
+.buttons .orange {
+  background-color: rgb(243, 137, 17);
+}
