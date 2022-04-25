@@ -1,0 +1,25 @@
+.quoteBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 80%;
+  margin-inline: auto;
+  margin-top: 10rem;
+}
+
+.quote,
+.author {
+  text-align: center;
+}
+
+.quote {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.author {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: end;
+}
