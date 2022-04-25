@@ -1,0 +1,11 @@
+.home {
+  padding-inline: 1rem;
+}
+
+.home h2 {
+  margin-block: 2rem;
+}
+
+.home p {
+  padding-block: 2rem;
+}
