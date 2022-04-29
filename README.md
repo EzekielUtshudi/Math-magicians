@@ -33,6 +33,8 @@
 
 ## Getting Started
 
+## Demo link  Netlify (https://transcendent-cendol-925f7e.netlify.app/)
+## Demo link for Heroku (https://dashboard.heroku.com/apps/math-magicians23/deploy/github)
 To get a local copy up and running follow these simple example steps.
 
 - [ ] Open CMD or Terminal 
