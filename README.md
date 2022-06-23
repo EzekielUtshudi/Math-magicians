@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
- Math magicians
+#  Math magicians
+
 
 > This is a simple calculator App to perform basic mathematical operations.
 
